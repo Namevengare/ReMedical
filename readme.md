@@ -1,4 +1,4 @@
-# Transformación de la Atención Médica con Ciencia de Datos
+# Transformación de la Atención Médica con Ciencia de Datos, Big data y desarrollo de software
 
 ## Descripción
 
