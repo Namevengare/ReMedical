@@ -1,6 +1,6 @@
-#validación y verificación
+# validación y verificación
 
-##validación
+## validación
 
 "Are we building the product right?"
 
@@ -14,7 +14,7 @@ Asegurar que los requisitos de integración de big data cumplan con estándares 
 
 Verificar que los requisitos de "medir impacto" incluyan métodos estadísticos validados 
 
-##verificación
+## verificación
 
 "Are we building the right product?"
 
