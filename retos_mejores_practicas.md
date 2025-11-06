@@ -1,7 +1,6 @@
 # Retos y Mejores Prácticas en Agilismo
 
-**Versión**: 1.0  
-**Fecha**: Noviembre 2025
+
 
 ---
 

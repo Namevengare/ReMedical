@@ -1,7 +1,5 @@
 # Gestión con Jira - ReMedical
 
-**Versión**: 1.0  
-**Fecha**: Noviembre 2025
 
 ---
 

@@ -1,8 +1,5 @@
 # Ciclo de Vida de Desarrollo - ReMedical
 
-**Versión**: 1.0  
-**Fecha**: Noviembre 2025
-
 ---
 
 ## Modelo Adoptado: Híbrido (Ágil + Regulatorio)
