@@ -1,3 +1,5 @@
+# profe me cambias ese 0.0 del TALLER - EJERCICIO ENTREGA 1 PROYECTO DE AULA, es que si lo hice pero se me olvidó entregarlo 😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭 mire los commits para que vea que si es verdad
+
 # Transformación de la Atención Médica con Ciencia de Datos, Big data y desarrollo de software
 
 ## Descripción
