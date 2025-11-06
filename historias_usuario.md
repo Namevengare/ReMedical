@@ -1,10 +1,5 @@
 # Historias de Usuario - ReMedical
 
-**Versión**: 1.0  
-**Fecha**: Noviembre 2025  
-**Autor**: Miguel Vengare  
-**Product Owner**: Miguel Vengare
-
 ---
 
 ## Formato
@@ -538,9 +533,3 @@ Una historia está completa cuando:
 
 ---
 
-**Historial de Versiones**:
-- v1.0 (2025-11-05): Versión inicial con 15 historias de usuario
-
-**Próxima Revisión**: Cada sprint en Backlog Refinement
-
-**Mantenido por**: Miguel Vengare (Product Owner)

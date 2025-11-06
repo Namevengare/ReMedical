@@ -1,15 +1,12 @@
 # Metodología Ágil - ReMedical
 
-**Versión**: 1.0  
-**Fecha**: Noviembre 2025
-
 ---
 
 ## Framework: Scrum
 
 **Sprints**: 2 semanas  
 **Equipo**: 8 personas (1 PO, 1 SM, 6 devs)  
-**Velocity promedio**: 34 story points
+**Velocity objetivo**: Estabilizar tras 6 sprints
 
 ---
 
@@ -89,7 +86,7 @@ Una historia está completa cuando:
 
 ---
 
-## Métricas Tracked
+## Métricas a Monitorear
 
 **Velocity**: Story points completados por sprint  
 **Burndown**: Trabajo restante vs. tiempo  
@@ -98,19 +95,11 @@ Una historia está completa cuando:
 **Defect Density**: Bugs por 1000 líneas de código  
 **Code Coverage**: Porcentaje de código con tests
 
----
-
-## Resultados (12 sprints)
-
-| Métrica | Valor |
-|---------|-------|
-| Velocity promedio | 34 SP |
-| Velocity desviación estándar | ±4 SP |
-| Historias completadas | 127 |
-| Historias movidas a siguiente sprint | 3 (2.4%) |
-| Bugs en producción | 7 (severidad baja) |
-| Test coverage | 84% |
-| Satisfacción UAT | 89% |
+**Objetivos**:
+- Velocity estabilizada (sprint 6+): ±15%
+- Historias completadas por sprint: >90%
+- Test coverage: >80%
+- Satisfacción UAT: >80%
 
 ---
 
@@ -130,5 +119,4 @@ Una historia está completa cuando:
 
 ---
 
-**Historial de Versiones**:
-- v1.0 (2025-11-05): Versión inicial
+

@@ -127,7 +127,7 @@ Sprint: [Si es blocker]
 
 ---
 
-## Sprints en Jira
+## Gestión de Sprints
 
 ### Creación de Sprint
 1. Click en "Create Sprint"
@@ -138,7 +138,7 @@ Sprint: [Si es blocker]
 ### Planning
 1. Drag historias de backlog a sprint
 2. Verificar Definition of Ready
-3. Total story points ≈ velocity histórica (34 SP)
+3. Total story points según velocity proyectada
 4. Assign a developers
 
 ### Durante Sprint
@@ -150,7 +150,7 @@ Sprint: [Si es blocker]
 1. Review: Marcar historias como Done
 2. Incomplete: Mover a siguiente sprint o backlog
 3. Complete Sprint en Jira
-4. Generar Velocity Report
+4. Generar reportes
 
 ---
 
@@ -177,10 +177,8 @@ Distribución de issues por estado a lo largo del tiempo.
 ### Sprint Report
 Resumen de sprint: completado vs. no completado.
 
-**Métricas**:
-- Commitment: Story points planeados
-- Completed: Story points logrados
-- Ratio: Completed/Commitment (target: >90%)
+**Métricas objetivo**:
+- Ratio: Completed/Commitment >90%
 
 ---
 
@@ -231,29 +229,29 @@ Resumen de sprint: completado vs. no completado.
 
 ---
 
-## Métricas Tracked
+## Métricas a Monitorear
 
-| Métrica | Sprint 1 | Sprint 6 | Sprint 12 |
-|---------|----------|----------|-----------|
-| Velocity | 28 SP | 35 SP | 37 SP |
-| Completion Rate | 85% | 94% | 98% |
-| Bugs Created | 12 | 5 | 3 |
-| Avg Cycle Time | 4.2 días | 3.1 días | 2.8 días |
+| Métrica | Objetivo |
+|---------|----------|
+| Velocity | Estabilizar tras 6 sprints |
+| Completion Rate | >90% |
+| Bugs Creados | Tendencia decreciente |
+| Avg Cycle Time | <3 días |
 
 ---
 
-## Mejores Prácticas Aplicadas
+## Mejores Prácticas
 
 1. **Historias pequeñas**: Ninguna >13 SP
-2. **Criterios claros**: 100% historias tienen acceptance criteria
-3. **Updates diarios**: Comentarios en issues con progreso
+2. **Criterios claros**: 100% historias con acceptance criteria
+3. **Updates diarios**: Comentarios con progreso
 4. **Links exhaustivos**: Dependencias siempre linkeadas
-5. **Labels consistentes**: Taxonomía definida y respetada
-6. **Bug triage**: Bugs nuevos triaged en <24 horas
+5. **Labels consistentes**: Taxonomía definida
+6. **Bug triage**: <24 horas
 
 ---
 
-## Ejemplo Real: Historia Completa
+## Ejemplo: Template Historia
 
 ```
 REMED-US-010: Cálculo de Predicción de Riesgo
@@ -261,8 +259,6 @@ REMED-US-010: Cálculo de Predicción de Riesgo
 Epic Link: REMED-EP-001 (Sistema de Predicción)
 Priority: High (Must Have)
 Story Points: 13
-Sprint: Sprint 4-5
-Assignee: Maria López (ML Engineer)
 Labels: ml, backend, core-feature
 Regulatory Impact: Yes (FDA Class II device)
 
@@ -281,38 +277,30 @@ Criterios de Aceptación:
 - [ ] Log de auditoría registra predicción
 
 Notas Técnicas:
-- Modelo: XGBoost pre-entrenado (model.pkl)
+- Modelo: XGBoost pre-entrenado
 - API: POST /api/v1/predictions
 - Input: patient_id + current timestamp
 - Output: {risk_score, risk_category, confidence, factors}
 
 Dependencias:
-- Bloqueada por: REMED-US-002 (Perfil de Paciente debe existir)
-- Bloquea a: REMED-US-011 (Explicabilidad requiere predicción primero)
+- Bloqueada por: REMED-US-002 (Perfil de Paciente)
+- Bloquea a: REMED-US-011 (Explicabilidad)
 
 Subtasks:
-- [x] REMED-T-101: Implementar endpoint API (4h) - Juan
-- [x] REMED-T-102: Integrar modelo ML (6h) - Maria
-- [x] REMED-T-103: UI botón y loading state (3h) - Carlos
-- [x] REMED-T-104: Tests unitarios backend (4h) - Maria
-- [x] REMED-T-105: Tests E2E (5h) - QA Team
-- [x] REMED-T-106: Documentación API (2h) - Juan
+- [ ] Implementar endpoint API (4h)
+- [ ] Integrar modelo ML (6h)
+- [ ] UI botón y loading state (3h)
+- [ ] Tests unitarios backend (4h)
+- [ ] Tests E2E (5h)
+- [ ] Documentación API (2h)
 
 Definition of Done:
-- [x] Código implementado según criterios
-- [x] Tests con coverage 87% (target >80%)
-- [x] Code review aprobado (Juan + Carlos)
-- [x] Desplegado en staging
-- [x] QA ejecutó 8 test cases - PASSED
-- [x] Performance test: P95 = 2.9 seg < 3 seg ✓
-- [x] Documentación Swagger actualizada
-- [x] Product Owner aprobó en Sprint Review
-
-Status: Done
-Resolved: 2025-10-15
+- [ ] Código implementado según criterios
+- [ ] Tests coverage >80%
+- [ ] Code review aprobado
+- [ ] Desplegado en staging
+- [ ] QA ejecutó test cases
+- [ ] Performance test: P95 <3 seg
+- [ ] Documentación actualizada
+- [ ] Product Owner aprobó
 ```
-
----
-
-**Historial de Versiones**:
-- v1.0 (2025-11-05): Versión inicial

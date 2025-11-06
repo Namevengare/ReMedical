@@ -1,9 +1,5 @@
 # Requisitos No Funcionales - ISO/IEC 25000 (SQuaRE)
 
-**Versión**: 1.0  
-**Fecha**: Noviembre 2025  
-**Autor**: Miguel Vengare
-
 ---
 
 ## Modelo ISO/IEC 25010
@@ -703,7 +699,7 @@ Método de Verificación:
 - Simulación de setup en ambiente nuevo
 ```
 
-### Instala bilidad
+### Instalabilidad
 
 **Requisito REMED-NFR-071**:
 ```
@@ -771,8 +767,3 @@ Método de Verificación:
 - Auditoría de seguridad anual (Q1 2026)
 
 ---
-
-**Historial de Versiones**:
-- v1.0 (2025-11-05): Versión inicial completa
-
-**Próxima Revisión**: 2026-02-05 (trimestral)
